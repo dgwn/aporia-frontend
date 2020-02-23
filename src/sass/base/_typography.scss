@@ -1,0 +1,21 @@
+body {
+    font-family: "HKGroteskRegular", sans-serif;
+    font-weight: 400;
+    /*font-size: 16px;*/
+    line-height: 1;
+    color: #000;
+  }
+
+  .heading-primary{
+
+      &--main{
+        display: block;
+        font-family: "HKGroteskBlack", sans-serif;
+        font-size: 6rem;
+      }
+
+      &--sub{
+        display: block;
+        font-size: 4rem;
+      }
+  }
