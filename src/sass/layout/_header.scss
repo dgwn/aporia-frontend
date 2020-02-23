@@ -2,12 +2,22 @@
     height: 100vh;
     background-image: 
         linear-gradient(to right bottom,
-            rgba(128, 128, 45, 100%), rgba(128, 128, 45, 100%)),   
+            $color-primary, $color-primary),   
         url(../../img/annie-spratt-PM4Vu1B0gxk-unsplash.jpg);
     
     background-blend-mode: color;
         background-size: cover;
     background-position: top;
     position: relative;
+
+    &__text-box{
+        position: absolute;
+        top: 5%;
+        left: 5%;
     }
+
+    &__nav-box{
+        
+    }
+}
 

@@ -11,6 +11,16 @@ function App() {
             <span className="heading-primary--main">Aporia</span>
             <span className="heading-primary--sub">Coffee</span>
           </h1>
+
+          <div className="home-links">
+              <ul className="home-links__list">
+                <li className="home-links__item"><a href="#" className="home-links__link">Beans</a></li>
+                <li className="home-links__item"><a href="#" className="home-links__link">Our Story</a></li>
+                <li className="home-links__item"><a href="#" className="home-links__link">Contact Us</a></li>
+              </ul>
+          </div>
+          
+
         </div>
       </header>
     </div>
