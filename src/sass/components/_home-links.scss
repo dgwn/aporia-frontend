@@ -1,0 +1,33 @@
+.home-links{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    
+
+    &__list{
+        
+    }
+
+    &__item{
+        list-style: none;
+        &:not(:last-child){
+            margin-bottom: .5rem;
+        }
+        
+    }
+
+    &__link{
+        transition: all .3s;
+        &:link,
+        &:visited{
+            display: inline-block;
+            text-decoration: none;
+            color: $color-black;
+        }
+
+        &:hover{
+            color: $color-secondary-green;
+        }
+
+    }
+}
