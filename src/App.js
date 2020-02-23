@@ -31,6 +31,20 @@ function App() {
           </div>
 
       </header>
+    
+      <section className="section section-beans">
+        <h1 className="heading-primary--sub">Beans</h1>
+      </section>
+
+      <section className="section section-story">
+        <h1 className="heading-primary--sub">Our Story</h1>
+
+      </section>
+
+      <section className="section section-contact">
+        <h1 className="heading-primary--sub">Contact Us</h1>
+
+      </section>
     </div>
   );
 }
