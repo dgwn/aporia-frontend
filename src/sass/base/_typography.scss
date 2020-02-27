@@ -2,7 +2,7 @@ body {
     font-family: "HKGroteskRegular", sans-serif;
     font-weight: 400;
     /*font-size: 16px;*/
-    line-height: 1;
+    line-height: 1.1;
     color: $color-black;
   }
 
@@ -11,11 +11,11 @@ body {
       &--main{
         display: block;
         font-family: "HKGroteskBlack", sans-serif;
-        font-size: 6rem;
+        font-size: 10rem;
       }
 
       &--sub{
         display: block;
-        font-size: 4rem;
+        font-size: 5rem;
       }
   }

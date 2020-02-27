@@ -1,13 +1,13 @@
 .header{
-    height: 90vh;
+    height: 99vh;
     background-image: 
         linear-gradient(to right bottom,
             $color-primary, $color-primary),   
         url(../../img/annie-spratt-PM4Vu1B0gxk-unsplash.jpg);
     
     background-blend-mode: color;
-        background-size: cover;
-    background-position: top;
+    background-size: cover;
+    background-position: center center;
     position: relative;
 
     &__text-box{

@@ -1,11 +1,15 @@
 @import "abstracts/variables";
+@import "abstracts/mixins";
 
 @import "base/base";
 @import "base/typography";
 
 @import "components/home-links";
+@import "components/bean-card";
 
 @import "layout/header";
+@import "layout/grid";
 @import "layout/navigation";
+@import "layout/footer";
 
 @import "pages/home";

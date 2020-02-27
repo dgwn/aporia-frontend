@@ -1,12 +1,7 @@
 .home-links{
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 5%;
-    
-
-    &__list{
-        
-    }
 
     &__item{
         list-style: none;
@@ -26,7 +21,7 @@
         }
 
         &:hover{
-            color: $color-secondary-green;
+            color: #fff;
         }
 
     }

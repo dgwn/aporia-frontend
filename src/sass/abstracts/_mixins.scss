@@ -1,0 +1,8 @@
+//fixes zero-height from using floats
+@mixin clearfix{
+    &::after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
