@@ -4,7 +4,22 @@ import CoffeeTile from './CoffeeTile';
 const Beans = ( ) => {
 
     const beans = [
-        1, 2, 3, 4
+        {
+            name: 'Colombia Buesaco1',
+            image: 'colombia-inza-coffee-sweetmarias-7.jpg'
+        },
+        {
+            name: 'Colombia Buesaco2',
+            image: 'colombia-inza-coffee-sweetmarias-3.jpg'
+        },
+        {
+            name: 'Colombia Buesaco3',
+            image: 'colombia-inza-coffee-sweetmarias-7.jpg'
+        },
+        {
+            name: 'Colombia Buesaco4',
+            image: 'colombia-inza-coffee-sweetmarias-7.jpg'
+        }
       ]
 
     return (
