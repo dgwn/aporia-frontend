@@ -9,7 +9,7 @@ const Beans = ( ) => {
 
     return (
         <section className="section section-beans" id="beans">
-            <h1 className="heading-primary--sub">Beans</h1>
+            <h1 className="heading-primary--sub u-margin-top-medium u-margin-bottom-small">Beans</h1>
 
             <div className="row">
             <CoffeeTile bean={beans[0]} />

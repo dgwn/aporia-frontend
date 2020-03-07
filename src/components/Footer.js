@@ -18,7 +18,7 @@ const Footer = (  ) => {
                 <div className="col col-1-of-2">
                     <p>This content is for mockup purposes only. Any references to companies or products are not endorsements and not representative of the views of said company/product. </p>
                 </div>
-                
+
             </div>
         </footer>
     )

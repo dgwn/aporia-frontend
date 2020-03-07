@@ -3,7 +3,7 @@ import React from 'react';
 const Story = (  ) => {
     return (
         <section className="section section-story" id="story">
-            <h1 className="heading-primary--sub">Our Story</h1>
+            <h1 className="heading-primary--sub u-margin-top-medium u-margin-bottom-small">Our Story</h1>
 
             <div className="row">
             <div className="col col-1-of-2">
