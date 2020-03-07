@@ -1,7 +1,13 @@
 import React from 'react';
+import CoffeeTile from './components/CoffeeTile';
 import './sass/main.scss';
 
 function App() {
+
+  const beans = [
+    1, 2, 3, 4
+  ]
+
   return (
     <div className="App">
 
@@ -35,33 +41,10 @@ function App() {
         <h1 className="heading-primary--sub">Beans</h1>
 
         <div className="row">
-          <div className="col col-1-of-4">
-            <div className="bean-card"></div>
-          </div>
-          <div className="col col-1-of-4">
-            <div className="bean-card"></div>
-          </div>
-          <div className="col col-1-of-4">
-            <div className="bean-card"></div>
-          </div>
-          <div className="col col-1-of-4">
-            <div className="bean-card"></div>
-          </div>
-        </div>
-
-        <div className="row">
-          <div className="col col-1-of-4">
-            <div className="bean-card"></div>
-          </div>
-          <div className="col col-1-of-4">
-            <div className="bean-card"></div>
-          </div>
-          <div className="col col-1-of-4">
-            <div className="bean-card"></div>
-          </div>
-          <div className="col col-1-of-4">
-            <div className="bean-card"></div>
-          </div>
+          <CoffeeTile bean={beans[0]} />
+          <CoffeeTile bean={beans[1]} />
+          <CoffeeTile bean={beans[2]} />
+          <CoffeeTile bean={beans[3]} />
         </div>
 
       </section>
