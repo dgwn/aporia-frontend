@@ -9,10 +9,7 @@
     }
 
     .footer__link{
-        &:link,
-        &:visited{
-            color: $color-black;
-            text-decoration: none;
-        }
+        @include link-animate
+        
     }
 }
