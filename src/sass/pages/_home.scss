@@ -1,3 +1,7 @@
+*{
+    scroll-behavior: smooth;
+}
+
 .section{
 
     & h1{
@@ -15,7 +19,8 @@
     &__image{
         max-height: 450px;
         width: 500px;
-        
+        object-fit: cover;
+        object-position: 0 100%;
     }
 }
 
