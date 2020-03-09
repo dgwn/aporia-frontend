@@ -28,6 +28,54 @@
         }
     }
 
+    &__background{
+        height: 100%;
+        width: 0%;
+        position: fixed;
+        background-color: $color-black;
+        z-index: 1000;
+        transition: all .5s;
+        opacity: 0;
+    }
+
+    &__nav{
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1500;
+        opacity: 0;
+        width: 0;
+    }
+
+    &__link{
+        &:link,
+        &:visited{
+            display: inline-block;
+            font-size: 3rem;
+            color: $color-white;
+            text-decoration: none;
+
+            span{
+                margin-right: 1.5rem;
+                display: inline-block;
+            }
+        }
+    }
+
+    // Functionality
+    &__checkbox:checked ~ &__background{
+        opacity: 1;
+        width: 100%;
+    }
+
+    &__checkbox:checked ~ &__nav{
+        opacity: 1;
+        width: 100%;
+    }
+
+
+    // Icon
     &__icon{
         position: relative;
         margin-top: 3em;
