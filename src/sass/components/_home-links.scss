@@ -12,17 +12,7 @@
     }
 
     &__link{
-        transition: all .3s;
-        &:link,
-        &:visited{
-            display: inline-block;
-            text-decoration: none;
-            color: $color-black;
-        }
-
-        &:hover{
-            color: #fff;
-        }
+        @include link-animate
 
     }
 }
