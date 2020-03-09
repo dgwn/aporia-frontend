@@ -14,11 +14,11 @@ const Beans = ( ) => {
         },
         {
             name: 'Colombia Buesaco3',
-            image: 'colombia-inza-coffee-sweetmarias-7.jpg'
+            image: 'colombia-buesaco-narino-cauca-coffee-9_7.jpg'
         },
         {
             name: 'Colombia Buesaco4',
-            image: 'colombia-inza-coffee-sweetmarias-7.jpg'
+            image: 'colombia-narino-coffee-buesaco-alianza-2.jpg'
         }
       ]
 
