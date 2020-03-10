@@ -8,9 +8,9 @@ const Footer = (  ) => {
                 <div className="col col-1-of-2">
                     <div className="footer-nav">
                         <ul className="footer__list">
-                            <li className="footer__item"><a href="#" class="footer__link">Company</a></li>
-                            <li className="footer__item"><a href="#" class="footer__link">Contact Us</a></li>
-                            <li className="footer__item"><a href="#" class="footer__link">Careers</a></li>
+                            <li className="footer__item"><a href="#beans" className="footer__link">Company</a></li>
+                            <li className="footer__item"><a href="#beans" className="footer__link">Contact Us</a></li>
+                            <li className="footer__item"><a href="#beans" className="footer__link">Careers</a></li>
                         </ul>
                     </div>
                 </div>
